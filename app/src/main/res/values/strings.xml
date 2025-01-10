@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Covi Vacci Care</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="we_will_send_you_an_one_time_pin">we will send an OTP to this</string>
+    <string name="enter_mobile_number">Mobile number</string>
+    <string name="_91">+91  | </string>
+    <string name="get_otp">Get OTP</string>
+    <string name="enter_one_time_password">One Time Password</string>
+    <string name="verify_otp">Verify</string>
+    <string name="enter_the_otp_sent_to">enter the OTP sent to</string>
+    <string name="please_provide_some_details_for_your">Please provide some details</string>
+    <string name="title_activity_adminlogin">AdminloginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="channel_name">Download</string>
+    <string name="channel_description">File is downloaded to Downloads</string>
+    <!--    <string name="didn_t_receive_the_otp">Didn't receive the OTP?</string>-->
+</resources>

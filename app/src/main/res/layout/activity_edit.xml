@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".RegisterActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Update Info"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="8dp"
+            android:text="* Mandatory"
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.133"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardview4" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview1"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="46dp"
+            android:elevation="5dp"
+            app:cardBackgroundColor="#F5F5F5"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="2dp"
+            app:cardPreventCornerOverlap="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="Personal Info"
+                    android:textStyle="bold"
+                    android:textColor="#4B0082"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/colorDivider" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:text="Name*"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorTextPrimary"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/edit_name1"
+                    android:layout_width="220dp"
+                    android:layout_height="40dp"
+                    android:background="@color/colorWhite"
+                    android:elevation="5dp"
+                    android:inputType="textCapWords"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:id="@+id/clsT1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="25dp"
+                    android:visibility="gone"
+                    android:text="Class*"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorTextPrimary"
+                    android:textSize="16sp" />
+
+
+                <EditText
+                    android:id="@+id/edit_clsdiv1"
+                    android:layout_width="52dp"
+                    android:layout_height="40dp"
+                    android:background="@color/colorWhite"
+                    android:elevation="5dp"
+                    android:hint="12-AB"
+                    android:visibility="gone"
+                    android:inputType="textCapCharacters"
+                    android:maxLength="5"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="40dp"/>
+
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="25dp"
+                    android:text="Aadhar No*"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorTextPrimary"
+                    android:textSize="16sp" />
+
+
+                    <EditText
+                        android:id="@+id/edit_aadhar1"
+                        android:layout_width="220dp"
+                        android:layout_height="40dp"
+                        android:background="@color/colorWhite"
+                        android:elevation="5dp"
+                        android:inputType="number"
+                        android:maxLength="14"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginLeft="40dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:text="For removing any details, turn off toggle switch"
+            android:textColor="@color/colorTextSecondary"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardview1" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview3"
+            android:layout_width="350dp"
+            android:layout_height="275dp"
+            android:layout_marginTop="8dp"
+            android:elevation="5dp"
+            app:cardBackgroundColor="#F5F5F5"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="2dp"
+            app:cardPreventCornerOverlap="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="26dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:text="First Dose"
+                        android:textStyle="bold"
+                        android:textColor="#800080"
+                        android:textSize="20sp" />
+
+                    <Switch
+                        android:id="@+id/switch11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="100dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="10dp" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/colorDivider" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Vaccine"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorTextPrimary"
+                    android:textSize="16sp" />
+
+
+                <Spinner
+                    android:id="@+id/spinner_vaccine11"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:background="@color/colorWhite"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="8dp"
+                    android:elevation="5dp"
+                    android:spinnerMode="dialog" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="25dp"
+                    android:text="Vaccinated on"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorTextPrimary"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/v1_date11"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:elevation="5dp"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:editable="false"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/colorWhite"
+                    android:hint="Eg: 26-Oct-2021"  />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview4"
+            android:layout_width="350dp"
+            android:layout_height="275dp"
+            android:layout_marginTop="40dp"
+            app:cardCornerRadius="15dp"
+            android:elevation="5dp"
+            app:cardBackgroundColor="#F5F5F5"
+            app:cardElevation="2dp"
+            app:cardPreventCornerOverlap="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardview3">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="26dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:text="Second Dose"
+                        android:textStyle="bold"
+                        android:textColor="#bb3385"
+                        android:textSize="20sp" />
+
+                    <Switch
+                        android:id="@+id/switch21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="60dp"
+                        android:layout_marginLeft="16dp" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/colorDivider" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Vaccine"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorTextPrimary"
+                    android:textSize="16sp" />
+
+
+
+                <Spinner
+                    android:id="@+id/spinner_vaccine21"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:elevation="5dp"
+                    android:background="@color/colorWhite"
+                    android:layout_marginTop="8dp"
+                    android:spinnerMode="dialog" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="25dp"
+                    android:text="Vaccinated on"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorTextPrimary"
+                    android:textSize="16sp"/>
+
+                <EditText
+                    android:id="@+id/v2_date21"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:elevation="5dp"
+                    android:focusable="false"
+                    android:clickable="false"
+                    android:editable="false"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/colorWhite"
+                    android:hint="Eg: 26-Oct-2021" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/btn_reg1"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:background="@drawable/backgroung_button"
+            android:text="Update"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardview4" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

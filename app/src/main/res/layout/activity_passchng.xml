@@ -1,0 +1,147 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".PasschngActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="Change Password"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textchp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
+                android:gravity="center"
+                android:text="Maximum 10 characters"
+                android:textColor="@color/colorTextSecondary"
+                android:textSize="14sp"/>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/oldpassTI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/colorPrimary"
+        tools:ignore="DuplicateIds">
+
+    <EditText
+        android:id="@+id/oldpass"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="80dp"
+        android:hint="Old Password"
+        android:textAlignment="center"
+        android:imeOptions="actionDone"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:maxLength="10"
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="16sp"
+        android:gravity="center_horizontal"
+        tools:ignore="RtlCompat" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/newpassTI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/colorPrimaryDark"
+        tools:ignore="DuplicateIds">
+
+    <EditText
+        android:id="@+id/newpass"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:hint="New Password"
+        android:textAlignment="center"
+        android:imeOptions="actionDone"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:maxLength="10"
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="16sp"
+        android:gravity="center_horizontal"
+        tools:ignore="RtlCompat" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/cnfrmnewpassTI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/colorPrimary"
+        tools:ignore="DuplicateIds">
+
+    <EditText
+        android:id="@+id/cnfrmnewpass"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:hint="Confirm New Password"
+        android:textAlignment="center"
+        android:imeOptions="actionDone"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:maxLength="10"
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="16sp"
+        android:gravity="center_horizontal"
+        tools:ignore="RtlCompat" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+            <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnchgpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="60dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/backgroung_button"
+            android:elevation="5dp"
+            android:text="Save"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:id="@+id/prog"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:layout_margin="30dp"/>
+
+    </FrameLayout>
+        </LinearLayout>
+
+
+</LinearLayout>

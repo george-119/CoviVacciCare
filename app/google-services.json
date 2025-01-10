@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "847688902338",
+    "project_id": "covi-vacci-care",
+    "storage_bucket": "covi-vacci-care.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847688902338:android:9ce28b3d4a06f007edfd5b",
+        "android_client_info": {
+          "package_name": "com.covi.vaccicare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847688902338-cirl2pe5jort7n4dg7vbvplstrt269a0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.covi.vaccicare",
+            "certificate_hash": "0fc652925088516a5b81888686ed06f695127e7d"
+          }
+        },
+        {
+          "client_id": "847688902338-t7tfc1kun1ot02oe5r0tm0jmqliql0rs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaD7Nm5vzioJDJ8eGOUwnCBYSjfewzceQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "847688902338-t7tfc1kun1ot02oe5r0tm0jmqliql0rs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
