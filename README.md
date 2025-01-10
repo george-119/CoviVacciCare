@@ -1,8 +1,6 @@
-Introduction:
-CoviVacciCare is an Android application designed to manage and monitor vaccination records for students and teachers within an educational institution. Developed using Android Studio in Java, the application ensures compatibility with devices having a screen size of 5.0 inches or above and API version 28 (Android 9) or higher. It provides a streamlined platform for tracking vaccination details, generating reports, and ensuring compliance with mandatory vaccination requirements.
+  CoviVacciCare is an Android application designed to manage and monitor vaccination records for students and teachers within an educational institution. Developed using Android Studio in Java, the application ensures compatibility with devices having a screen size of 5.0 inches or above and API version 28 (Android 9) or higher. It provides a streamlined platform for tracking vaccination details, generating reports, and ensuring compliance with mandatory vaccination requirements.
 
-Objective:
-The goal of CoviVacciCare is to simplify vaccination record management for institutions by enabling administrators, teachers, and students to collaboratively maintain accurate vaccination details. The application facilitates efficient data handling, personalized suggestions for mandatory vaccinations, and comprehensive reporting.
+  The goal of CoviVacciCare is to simplify vaccination record management for institutions by enabling administrators, teachers, and students to collaboratively maintain accurate vaccination details. The application facilitates efficient data handling, personalized suggestions for mandatory vaccinations, and comprehensive reporting.
 
 Key Features:
 
